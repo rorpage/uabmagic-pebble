@@ -1,0 +1,33 @@
+{
+  "name": "uabmagic",
+  "author": "rorpage",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "pebblejs": "1.0.0"
+  },
+  "pebble": {
+    "displayName": "UABMagic",
+    "uuid": "257b03ee-5dc3-42d7-bdc2-5c65c7280d72",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
